@@ -55,6 +55,15 @@ header ul{
     grid-template-rows: repeat(2,1fr);
     gap: 10px;
 }
+.grid_tienda_img:hover{
+filter: opacity(1);
+transform: scale(0.95);
+cursor: pointer;
+
+
+}
+    
+
 
  footer{
 display: flex;
