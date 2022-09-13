@@ -20,6 +20,7 @@ header ul{
     width: 400px;
     justify-content: space-evenly;
     font-size: 20px;
+   
  }
  .grid_inicio{
     display: grid;
