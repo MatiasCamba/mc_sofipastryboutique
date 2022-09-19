@@ -94,5 +94,11 @@ justify-content: center;
         grid-template-rows: repeat(1,1fr);
     }
 
+    .grid_inicio{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
 }
     
