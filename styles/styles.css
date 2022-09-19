@@ -6,6 +6,21 @@ header{
     
     
 }
+.nav-item {
+    transition: 0.3s ease;
+    background: #AFACAC;
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    border-top: 4px solid #0C0B0B ;
+    border-bottom: 4px solid #0C0B0B;
+   
+  }
+  .nav-item:hover {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0; 
+  }
 
 
 
@@ -97,7 +112,7 @@ justify-content: center;
     .grid_inicio{
         display: flex;
         flex-direction: column;
-        
+
     }
 
 }
