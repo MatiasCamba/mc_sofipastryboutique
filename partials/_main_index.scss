@@ -1,0 +1,21 @@
+.grid_inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .imagen_inicio {
+        width: 700px;
+        height: 800px;
+    }
+
+    .texto_inicio {
+        font-size: 80px;
+        padding: 10px;
+        margin: 100px;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+}
+
+
+
+

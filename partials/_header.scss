@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: 400px;
+        justify-content: space-evenly;
+        font-size: 20px;
+
+        .nav-item {
+            transition: 0.3s ease;
+            background: $colormenu;
+            color: #ffffff;
+            font-size: 17px;
+            text-decoration: none;
+            border-top: 2px solid #0C0B0B;
+            border-bottom: 2px solid #0C0B0B;
+
+            &:hover {
+                border-top: 4px solid #ffffff;
+                border-bottom: 4px solid #ffffff;
+                padding: 6px 0;
+
+            }
+        }
+
+    }
+    .logo {
+        width: 20rem;
+    }
+
+
+}
