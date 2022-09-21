@@ -8,7 +8,7 @@ header{
 }
 .nav-item {
     transition: 0.3s ease;
-    background: #AFACAC;
+    background: white;
     color: #ffffff;
     font-size: 17px;
     text-decoration: none;
