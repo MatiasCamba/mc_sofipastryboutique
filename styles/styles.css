@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900");
-header {
-  display: flex;
-  justify-content: space-between;
+.button {
+  display: inline-block;
+  background: #97cbfa;
+  border-radius: 5px;
+  height: 48px;
+  transition: all 200ms ease;
 }
+
 header ul {
   display: flex;
   flex-direction: row;
@@ -10,6 +14,11 @@ header ul {
   width: 400px;
   justify-content: space-evenly;
   font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
 }
 header ul .nav-item {
   transition: 0.3s ease;
@@ -107,13 +116,6 @@ h6 {
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
-.button {
-  display: inline-block;
-  background: #97cbfa;
-  border-radius: 5px;
-  height: 48px;
-  transition: all 200ms ease;
-}
 .button .button a {
   display: block;
   font-size: 18px;
