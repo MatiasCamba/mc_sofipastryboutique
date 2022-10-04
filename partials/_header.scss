@@ -3,16 +3,11 @@ header {
     justify-content: space-between;
 
     ul {
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        width: 400px;
-        justify-content: space-evenly;
-        font-size: 20px;
+        @extend %ulFlex;
 
         .nav-item {
             transition: 0.3s ease;
-            background: $colormenu;
+            background: map-get($colores, colorMenu);
             color: #ffffff;
             font-size: 17px;
             text-decoration: none;
@@ -28,6 +23,7 @@ header {
         }
 
     }
+
     .logo {
         width: 20rem;
     }
